@@ -1,0 +1,12 @@
+:root {
+  --bg: #ffffff;
+  --text: #111827;
+}
+[data-bs-theme="dark"] {
+  --bg: #0b1220;
+  --text: #e6eef8;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+}
